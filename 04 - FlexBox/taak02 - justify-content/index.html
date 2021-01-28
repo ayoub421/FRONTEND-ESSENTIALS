@@ -6,7 +6,50 @@
     <title>Flexbox container</title>
 
     <style>
-       
+    *{
+        background:rgb(184, 118, 31) ;
+        margin: 0;
+        padding: 0;
+        
+        }
+    .container{
+        border-style: solid;
+        border-color: hsl(240, 100%, 50%);
+        display:flex;
+        width:100%;
+        color: green;
+    }
+
+
+        .items{
+            color:white;
+            font-size: 10px;
+            text-align: center;
+            text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+            padding:10px;
+            cursor: solid;
+        }
+
+        #item-1{
+            background-color:#1abc9c;
+        }
+
+        #item-2{
+            background-color:#e67e22;
+        }
+
+        #item-3{
+            background-color:#e74c3c;
+        }
+
+        #item-4{
+            background-color:#2ecc71;
+        }
+        .container{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
     </style>
 </head>
 <body>
